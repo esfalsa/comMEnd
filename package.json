@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write .",
+    "lint:types": "tsc",
+    "lint:ext": "web-ext lint",
     "start:firefox": "web-ext run",
     "dev:firefox": "web-ext run --reload",
     "build:firefox": "web-ext build --overwrite-dest",
@@ -13,6 +15,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5",
+    "typescript": "^5.4.3",
     "web-ext": "^7.11.0"
   }
 }

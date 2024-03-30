@@ -1,23 +1,12 @@
 {
   "manifest_version": 3,
   "name": "comMEnd",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Commend yourself on NationStates the easy way.",
   "content_scripts": [
     {
-      "js": ["rift.js"],
-      "matches": [
-        "*://www.nationstates.net/nation=*",
-        "*://rift.nationstates.net/nation=*",
-        "*://dark.nationstates.net/nation=*",
-        "*://liberal.nationstates.net/nation=*",
-        "*://conservative.nationstates.net/nation=*",
-        "*://m.nationstates.net/nation=*"
-      ]
-    },
-    {
-      "js": ["century.js"],
-      "matches": ["*://century.nationstates.net/nation=*"]
+      "matches": ["*://*.nationstates.net/nation=*"],
+      "js": ["content.js"]
     }
   ],
   "host_permissions": ["*://*.nationstates.net/nation=*"],
