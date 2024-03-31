@@ -36,3 +36,5 @@ comMEnd is powered by **cutting-edge technologies** like HTML, CSS, and JavaScri
 Certainly! [Here](https://imgur.com/U5ofBym.png) is a testimonial from two satisfied users.
 
 ## License
+
+comMEnd is licensed under the [comMEnd](https://github.com/esfalsa/comMEnd/blob/main/LICENSE) license.
